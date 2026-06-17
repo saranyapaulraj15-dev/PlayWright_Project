@@ -170,6 +170,7 @@ export const defaultDispatchEventOptions: DispatchEventOptions = {
     timeout: 60000,
 };
 
+
 export const defaultEvaluateOptions: EvaluateOptions = {
     timeout: 60000,
 };
