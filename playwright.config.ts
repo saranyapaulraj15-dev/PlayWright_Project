@@ -5,7 +5,7 @@ export default defineConfig({
     testDir: './tests',
     timeout: 60 * 1000,
     retries: 1,
-    reporter: [['html', { outputFolder: 'reports\\playwright-html-report', open: 'never' }],['allure-Playwright',{outputFolder: 'reports\\Allure-results'}]]
+    reporter: [['html', { outputFolder: 'reports\\playwright-html-report', open: 'always' }],['allure-Playwright',{outputFolder: 'reports\\Allure-results',open:'always'}]]
     
     ,
 
